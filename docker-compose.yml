@@ -1,0 +1,8 @@
+
+services:
+
+  mlflow:
+    image: ghrc.io/mlflow/mlflow
+    ports:
+      - 5000:5000
+    command: mlflow server
